@@ -22,11 +22,12 @@ We include 30 files from our test set to run a small scale test verifying that a
 
 In either conditional convolution (CondConvResNet) or conditional layer normalization (Final_CLN_Resnet) folders, run 
 ```
+cd CondConvResNet OR cd Final_CLN_Resnet
 python3 batch_test.py --folder 1 --checkpoint best_val.pt
 ```
 to run a small scale test utilizing our provided checkpoints.
 
-In the logs folder, under the folder 1, we have two .txt files. `predictions.txt` contains the predicted coordinates vs. the ground truth coordinates, while `test_loss.txt` computations. We utilize the Average Distance metric for our evaluations.
+In the logs folder, under the folder 1, it generates two .txt files. `predictions.txt` contains the predicted coordinates vs. the ground truth coordinates, while `test_loss.txt` computations. We utilize the Average Distance metric for our evaluations.
 
 
 ## Run large scale test
