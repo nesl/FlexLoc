@@ -1,4 +1,4 @@
-# FlexLoc
+# FlexLoc - Accepted to IROS 2024
 
 ## Create Environment
 1. Clone the repository to any directory
