@@ -2,7 +2,7 @@
 
 ## Create Environment
 1. Clone the repository to any directory
-2. Create a conda environment with the following command `conda create --env flexloc python=3.10`
+2. Create a conda environment with the following command `conda create --n flexloc python=3.10`
 3. In the `CondConvResNet` directory, there is a `requirements.txt` with the necessary packages
 ```
 cd CondConvResNet
